@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Регистрация</h1>
+    <form>
+      <label for="name" margin="25px">Имя</label>
+      <input type="text" id="name" required />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+      <br />
+      <label for="passw">Пароль</label>
+      <input type="password" id="passw" required />
+      <br />
+      <label for="age">Возраст</label>
+      <input type="number" id="age" />
+      <br />
+      <label for="country">Страна</label>
+      <select name="el" id="country">
+        <option value="kz">Казахстан</option>
+        <option value="geo">Грузия</option>
+        <option value="jpn">Жапония</option>
+      </select>
+      <br />
+      <br />
+      <label for="check">Согласен(-на) с условиями</label>
+      <input type="checkbox" id="check" name="agree" />
+      <button type="submit">Зарегистрироваться</button>
+    </form>
+  </body>
+</html>
+<!--  1.Итоговая ширина будет 350px
+  2.Тогда будет 394px
+  3.Для того чтобы выбрать все элементы-->
